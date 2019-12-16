@@ -11,9 +11,11 @@
 - 如何在AWS，Azure和GCP中部署Nginx和Nginx Plus；以及Docker容器中
 - 使用Nginx监控和诊断应用程序性能
 
+此书的第二版，涵盖了新的开放源代码功能，例如gRPC支持，HTTP / 2之服务器推送以及用于集群环境的负载均衡算法，以及新的Nginx 功能，例如支持状态共享，新的Nginx 特性。API和键值存储等。
+
 ![The Complete NGINX Cookbook](https://blog.ahthw.com/wp-content/uploads/2019/12/ebk-ORM-NGINXCookbookmega-2019-ebk-tablet-350x500-1-1.png)
 
-[官方网站](https://www.nginx.com/resources/library/complete-nginx-cookbook/) · [中问翻译主站](https://github.ahthw.com/nginx/) · [下载电子版](https://blog.ahthw.com/wp-content/uploads/2019/12/NGINX_Cookbook_EN.pdf)
+[官方网站](https://www.nginx.com/resources/library/complete-nginx-cookbook/) · [中文翻译主站](https://github.ahthw.com/nginx/) · [下载电子版](https://blog.ahthw.com/wp-content/uploads/2019/12/NGINX_Cookbook_EN.pdf)
 
 ## 贡献内容
 
@@ -23,7 +25,7 @@ Fork 后的仓库如何同步本仓库？
 
 ```bash
 # 添加 upstream 源，只需执行一次
-git remote add upstream git@github.com:halldwang/natpagle.git
+git remote add upstream git@github.com:halldwang/nginx.git
 
 # 拉取远程代码
 git pull upstream master
@@ -42,7 +44,7 @@ git push origin master
 
 ## 生成电子书
 
-这本书使用 [Vuepress](https://vuepress.vuejs.org/zh/) 撰写并生成[网站](https://github.com/halldwang/natpagle/)，请查看 `package.json` 中的 `scripts` 配置和 `/scripts` 目录中的脚本来了解这本书的构建和发布过程。
+这本书使用 [Vuepress](https://vuepress.vuejs.org/zh/) 撰写并生成[网站](https://github.ahthw.com/nginx/)，请查看 `package.json` 中的 `scripts` 配置和 `/scripts` 目录中的脚本来了解这本书的构建和发布过程。
 
 ```bash
 # 初始化 nodejs 依赖
