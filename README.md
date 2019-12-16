@@ -67,6 +67,10 @@ vuepress build .
 
 ```
 
+## 维护者
+
+[@halldwang](https://github.com/halldwang). [@Jamesleons](https://github.com/Jamesleons)
+
 ## 更新日志
 
 [https://github.com/halldwang/nginx/commits/master](https://github.com/halldwang/nginx/commits/master)
