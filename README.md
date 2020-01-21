@@ -15,17 +15,17 @@
 
 ![The Complete NGINX Cookbook](https://blog.ahthw.com/wp-content/uploads/2019/12/ebk-ORM-NGINXCookbookmega-2019-ebk-tablet-350x500-1-1.png)
 
-[官方网站](https://www.nginx.com/resources/library/complete-nginx-cookbook/) · [中文翻译主站](https://github.ahthw.com/nginx/) · [下载电子版](https://blog.ahthw.com/wp-content/uploads/2019/12/NGINX_Cookbook_EN.pdf)
+[官方网站](https://www.nginx.com/resources/library/complete-nginx-cookbook/) · [中文翻译主站](https://olgei.github.io/nginx/) · [下载电子版](https://blog.ahthw.com/wp-content/uploads/2019/12/NGINX_Cookbook_EN.pdf)
 
 ## 贡献内容
 
-如果你想参与这本书的共同创作，修改或添加内容，可以先 [Fork](https://github.com/halldwang/nginx) 这本书的仓库，然后将修改的内容提交 [Pull requests](https://github.com/halldwang/nginx/pulls) ；或者创建 [Issues](https://github.com/halldwang/nginx/issues)。
+如果你想参与这本书的共同创作，修改或添加内容，可以先 [Fork](https://github.com/olgei/nginx.git) 这本书的仓库，然后将修改的内容提交 [Pull requests](https://github.com/olgei/nginx/pulls) ；或者创建 [Issues](https://github.com/olgei/nginx/issues)。
 
 Fork 后的仓库如何同步本仓库？
 
 ```bash
 # 添加 upstream 源，只需执行一次
-git remote add upstream git@github.com:halldwang/nginx.git
+git remote add upstream git@github.com:olgei/nginx.git
 
 # 拉取远程代码
 git pull upstream master
@@ -44,7 +44,7 @@ git push origin master
 
 ## 生成电子书
 
-这本书使用 [Vuepress](https://vuepress.vuejs.org/zh/) 撰写并生成[网站](https://github.ahthw.com/nginx/)，请查看 `package.json` 中的 `scripts` 配置和 `/scripts` 目录中的脚本来了解这本书的构建和发布过程。
+这本书使用 [Vuepress](https://vuepress.vuejs.org/zh/) 撰写并生成[网站](https://olgei.github.io/nginx/)，请查看 `package.json` 中的 `scripts` 配置和 `/scripts` 目录中的脚本来了解这本书的构建和发布过程。
 
 ```bash
 # 初始化 nodejs 依赖
@@ -69,8 +69,8 @@ vuepress build .
 
 ## 维护者
 
-[@halldwang](https://github.com/halldwang). [@Jamesleons](https://github.com/Jamesleons)
+[@halldwang](https://github.com/halldwang). [@Jamesleons](https://github.com/jamesleons)
 
 ## 更新日志
 
-[https://github.com/halldwang/nginx/commits/master](https://github.com/halldwang/nginx/commits/master)
+[https://github.com/olgei/nginx/commits/master](https://github.com/olgei/nginx/commits/master)
