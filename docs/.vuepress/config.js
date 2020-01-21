@@ -2,7 +2,7 @@ module.exports = {
   title: "Nginx官方烹调书（中文）",
   description: "The Complete NGINX Cookbook",
   dest: "./dist",
-  base: "/",
+  base: "/nginx/",
   sidebarDepth: 2,
   themeConfig: {
     repo: "olgei/nginx",
