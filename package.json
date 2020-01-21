@@ -1,0 +1,20 @@
+{
+  "name": "nginx",
+  "version": "1.0.0",
+  "description": "Nginx官方烹调书(The Complete NGINX Cookbook )中文翻译",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olgei/nginx.git"
+  },
+  "author": "halldwang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olgei/nginx/issues"
+  },
+  "homepage": "https://github.com/olgei/nginx"
+}
