@@ -12,13 +12,16 @@ module.exports = {
     lastUpdated: "上次更新",
     editLinks: true,
     smoothScroll: true,
-    nav: [{ text: "首页", link: "/" }],
+    nav: [
+      { text: "首页", link: "/" },
+      { text: "贡献内容", link: "/#贡献内容" }
+    ],
     sidebar: [
       ["./book/COVER", "封面和版权"],
       ["./book/TABLE", "目录"],
-      ["./book/PART-ONE", "安全与访问"],
-      ["./book/PART-TWO", "安全与访问"],
-      ["./book/PART-THREE", "部署与运维"],
+      ["./book/PART-ONE", "第一部分：负载平衡和HTTP缓存"],
+      ["./book/PART-TWO", "第二部分：安全与访问"],
+      ["./book/PART-THREE", "第三部分：部署与运维"],
       ["./book/ABOUT", "关于作者"]
     ]
   }

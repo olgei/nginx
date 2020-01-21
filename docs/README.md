@@ -1,6 +1,6 @@
 # Nginx官方烹调书(The Complete NGINX Cookbook )中文翻译
 
-## 原著由 Derek DeJonghe 编写
+> 原著由 Derek DeJonghe 编写
 
 得知O'Reilly出版了《NGINX Cookbook》第二版，非常开心，Nginx在我们日常开发中扮演了重要角色，为了赶紧学起起来，特想到翻译此书，并希望帮到大家。
 
@@ -19,12 +19,12 @@
 
 ## 目录和章节
 
-- [封面和版权]
-- [目录]
-- [第一部分：负载平衡和HTTP缓存]
-- [第二部分：安全与访问]
-- [第三部分：部署与运维]
-- [关于作者]
+- [封面和版权](https://olgei.github.io/nginx/book/COVER.html)
+- [目录](https://olgei.github.io/nginx/book/TABLE.html)
+- [第一部分：负载平衡和HTTP缓存](https://olgei.github.io/nginx/book/PART-ONE.html)
+- [第二部分：安全与访问](https://olgei.github.io/nginx/book/PART-TWO.html)
+- [第三部分：部署与运维](https://olgei.github.io/nginx/book/PART-THREE.html)
+- [关于作者](https://olgei.github.io/nginx/book/ABOUT.html)
 
 ## 贡献内容
 
