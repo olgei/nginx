@@ -1,0 +1,41 @@
+language: node_js
+node_js: "10"
+
+cache: npm
+
+before_install:
+  - export TZ='Asia/Shanghai'
+
+install:
+  - npm install -g vuepress
+  - npm install
+
+before_script:
+  - U_NAME=$(git show -s --format=%an)
+  - U_EMAIL=$(git show -s --format=%ae)
+  - echo $U_NAME $U_EMAIL
+
+script:
+  - cd docs && vuepress build .
+
+after_script:
+  - git clone https://${GH_REF} .deploy_git
+  - cd .deploy_git
+  - git checkout gh-pages
+  - cd ../
+  - mv .deploy_git/.git/ ./dist/
+  - cd dist
+  - git config  --global user.name "${U_NAME}"
+  - git config  --global user.email "${U_EMAIL}"
+  - git add .
+  - git status
+  - git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M%z"`"
+  - git push  --quiet "https://${GH_TOKEN}@${GH_REF}" gh-pages:gh-pages
+
+branches:
+  only:
+    - master
+
+env:
+  global:
+    - GH_REF: github.com/${TRAVIS_REPO_SLUG}.git
